@@ -1,4 +1,9 @@
-def containsDuplicate(self, nums: List[int]) -> bool:
+def containsDuplicate(nums):
+    """
+    :nums: List[int]
+    :rVal: bool
+    """
+
     # numSet = set()
     # for num in nums:
     #     if num in numSet:

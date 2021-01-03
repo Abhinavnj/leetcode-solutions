@@ -1,4 +1,8 @@
-def maxProfit(self, prices: List[int]) -> int:
+def maxProfit(prices):
+    """
+    :prices: List[int]
+    :rVal: int
+    """
     if len(prices) == 0:
         return 0
     
