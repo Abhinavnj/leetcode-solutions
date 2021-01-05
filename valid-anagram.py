@@ -1,6 +1,6 @@
 from collections import Counter
 
-def isAnagram(s: str, t: str) -> bool:
+def isAnagram(s, t):
     """
     :s: str
     :t: str 
