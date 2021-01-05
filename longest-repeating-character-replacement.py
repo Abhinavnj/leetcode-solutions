@@ -1,4 +1,10 @@
-def characterReplacement(self, s: str, k: int) -> int:
+def characterReplacement(s, k):
+    """
+    :s: str
+    :k: Lint
+    :rVal: int
+    """
+
     # MOVING WINDOW
     
     # 'freq' holds the frequencies of each character in 's'.
