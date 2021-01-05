@@ -12,6 +12,9 @@ def groupAnagrams(strs):
     for w in strs:
         # Set 'key' equal to the sorted version of the string
         key = ''.join(sorted(w))
+        # **Could also use tuple as key since 'list' is not hashable
+        # key = tuple(sorted(w))
+        
         # Set the value at this key as the words that match it when
         # they are sorted. The words are stored in a list, which is
         # the value.
