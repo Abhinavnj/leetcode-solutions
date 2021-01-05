@@ -1,7 +1,7 @@
 def productExceptSelf(nums):
     """
-    :nums: List[int]
-    :rVal: List[int]
+    nums: List[int]
+    rVal: List[int]
     """
 
     numsLen = len(nums)

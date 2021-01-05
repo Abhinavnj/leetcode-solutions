@@ -1,7 +1,7 @@
 def containsDuplicate(nums):
     """
-    :nums: List[int]
-    :rVal: bool
+    nums: List[int]
+    rVal: bool
     """
 
     # numSet = set()

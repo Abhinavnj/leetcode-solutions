@@ -1,7 +1,7 @@
 def findMin(nums):
     """
-    :nums: List[int]
-    :rVal: int
+    nums: List[int]
+    rVal: int
     """
 
     # If array is not rotated

@@ -1,7 +1,7 @@
 def maxProduct(nums):
     """
-    :nums: List[int]
-    :rVal: int
+    nums: List[int]
+    rVal: int
     """
 
     # Keep multiplying numbers in array until 0

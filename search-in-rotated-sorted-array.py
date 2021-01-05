@@ -1,8 +1,8 @@
-def search(self, nums: List[int], target: int) -> int:
+def search(nums, target):
     """
-    :nums: List[int]
-    :target: int
-    :rVal: int
+    nums: List[int]
+    target: int
+    rVal: int
     """
 
     n = len(nums)

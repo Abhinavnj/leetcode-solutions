@@ -1,7 +1,7 @@
 def threeSum(nums):
     """
-    :nums: List[int]
-    :rVal: List[List[int]]
+    nums: List[int]
+    rVal: List[List[int]]
     """
 
     result = []

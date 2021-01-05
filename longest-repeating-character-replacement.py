@@ -1,7 +1,7 @@
 def characterReplacement(s, k):
     """
-    :s: str
-    :k: Lint
+    s: str
+    k: Lint
     :rVal: int
     """
 

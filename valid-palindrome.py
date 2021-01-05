@@ -1,7 +1,7 @@
 def isPalindrome(s):
     """
-    :s: str
-    :rVal: bool
+    s: str
+    rVal: bool
     """
 
     s = ''.join(i for i in s if i.isalnum()).lower()

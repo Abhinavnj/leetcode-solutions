@@ -1,7 +1,7 @@
 def isValid(s):
     """
-    :s: str
-    :rVal: bool
+    s: str
+    rVal: bool
     """
 
     stack = []

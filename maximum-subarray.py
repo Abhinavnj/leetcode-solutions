@@ -1,7 +1,7 @@
 def maxSubArray(nums):
     """
-    :nums: List[int]
-    :rVal: int
+    nums: List[int]
+    rVal: int
     """
 
     # Kadane's Algorithm

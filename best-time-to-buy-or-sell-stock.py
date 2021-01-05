@@ -1,7 +1,7 @@
 def maxProfit(prices):
     """
-    :prices: List[int]
-    :rVal: int
+    prices: List[int]
+    rVal: int
     """
     if len(prices) == 0:
         return 0

@@ -1,7 +1,7 @@
 def maxArea(height):
     """
-    :height: List[int]
-    :rVal: int
+    height: List[int]
+    rVal: int
     """
     # The minimum of the two heights can be discarded after getting
     # the area because it will never support a higher water level

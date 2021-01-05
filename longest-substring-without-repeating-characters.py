@@ -1,7 +1,7 @@
 def lengthOfLongestSubstring(s):
     """
-    :s: str
-    :rVal: int
+    s: str
+    rVal: int
     """
     used = {}
     maxLen = start = 0
