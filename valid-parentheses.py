@@ -7,6 +7,7 @@ def isValid(s):
     stack = []
     mapping = {")": "(", "}": "{", "]": "["}
     for char in s:
+        print(stack)
         if char in mapping:
             if not stack or mapping[char] != stack.pop():
                 return False
@@ -14,6 +15,8 @@ def isValid(s):
             stack.append(char)
             
     return not stack
+
+isValid('{()}')
     
     # INITIAL ATTEMPT:
     # stack = []
